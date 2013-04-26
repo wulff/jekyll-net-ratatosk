@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article>
+  <div class="container frontpage">
+    <div class="row">
+      <div class="span2 muted">
+        <p>
+          Morten Wulff<br />
+          {{ page.date | date_to_long_string }}
+        </p>
+      </div>
+      <div class="span7">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      </div>
+      <div class="span3">
+        <p>
+          Lorem ipsum sit dolor et amet.
+        </p>
+      </div>
+    </div>
+  </div>
+</article>

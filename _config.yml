@@ -1,0 +1,5 @@
+url: ratatosk.net
+baseurl: /
+auto: true
+lsi: false
+exclude: [_bootstrap, _less, _temp, codekit-config.json]
